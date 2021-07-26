@@ -1,4 +1,4 @@
-# CS 6381 Project 2
+# Publish/Subscribe using zmp
 
 In this project, we extended our Topic-based Pub/Sub broker from project 1 to implement fault tolerance by leader election. Whether we use broker-based (option 1) or direct (option 2) dissemination , the Publishers and Subscribers in the system will continue to be able to write and read to their respective topics, as long as at least one Broker middleware is still running.
 
